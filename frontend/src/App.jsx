@@ -14,7 +14,10 @@ import {
   getChunk,
   clearFileChunks,
 } from "./utils/indexedDbFileStore";
-const socket = io("http://localhost:5000", {
+// const socket = io("http://localhost:5000", {
+//   autoConnect: false,
+// });
+const socket = io("https://p2p-web-share-direct-browser-to-browser.onrender.com", {
   autoConnect: false,
 });
 
